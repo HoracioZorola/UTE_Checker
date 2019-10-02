@@ -21,7 +21,7 @@ namespace UTE_Checker.BusinessEntities
         public string name { get; set; }
 
         [Required(ErrorMessage = "El campo Apellidos es requerido.")]
-        [StringLength(60, ErrorMessage = "La longitud del campo Apellido es de 60 caracteres.")]
+        //[StringLength(60, ErrorMessage = "La longitud del campo Apellido es de 60 caracteres.")]
         [DataType(DataType.Text)]
         public string lastname { get; set; }
 
